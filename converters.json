@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "name": "Mass",
+      "units": [
+        { "name": "Kilogram", "symbol": "kg", "factor": 1 },
+        { "name": "Gram", "symbol": "g", "factor": 0.001 },
+        { "name": "Milligram", "symbol": "mg", "factor": 1e-6 },
+        { "name": "Tonne", "symbol": "t", "factor": 1000 },
+        { "name": "Pound", "symbol": "lbs", "factor": 0.453592 },
+        { "name": "Ounce", "symbol": "oz", "factor": 0.0283495 }
+      ]
+    },
+    {
+      "name": "Length",
+      "units": [
+        { "name": "Meter", "symbol": "m", "factor": 1 },
+        { "name": "Centimeter", "symbol": "cm", "factor": 0.01 },
+        { "name": "Millimeter", "symbol": "mm", "factor": 0.001 },
+        { "name": "Kilometer", "symbol": "km", "factor": 1000 },
+        { "name": "Inch", "symbol": "in", "factor": 0.0254 },
+        { "name": "Foot", "symbol": "ft", "factor": 0.3048 },
+        { "name": "Mile", "symbol": "mi", "factor": 1609.34 }
+      ]
+    },
+    {
+      "name": "Area",
+      "units": [
+        { "name": "Square Meter", "symbol": "m²", "factor": 1 },
+        { "name": "Square Kilometer", "symbol": "km²", "factor": 1e6 },
+        { "name": "Hectare", "symbol": "ha", "factor": 10000 },
+        { "name": "Acre", "symbol": "acre", "factor": 4046.86 },
+        { "name": "Square Foot", "symbol": "ft²", "factor": 0.092903 }
+      ]
+    },
+    {
+      "name": "Volume",
+      "units": [
+        { "name": "Liter", "symbol": "L", "factor": 1 },
+        { "name": "Milliliter", "symbol": "mL", "factor": 0.001 },
+        { "name": "Cubic Meter", "symbol": "m³", "factor": 1000 },
+        { "name": "Gallon (US)", "symbol": "gal", "factor": 3.78541 }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "units": [
+        { "name": "Celsius", "symbol": "°C", "factor": 1, "offset": 0, "type": "temperature" },
+        { "name": "Fahrenheit", "symbol": "°F", "factor": 0.5555555556, "offset": 32, "type": "temperature" },
+        { "name": "Kelvin", "symbol": "K", "factor": 1, "offset": 273.15, "type": "temperature" }
+      ]
+    }
+  ]
+}
