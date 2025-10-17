@@ -43,7 +43,7 @@ export default function LoanCalculator() {
             Loan Calculator
           </h1>
           <p className="text-xl text-slate-600 max-w-2xl">
-            Calculate your loan payments instantly. See exactly how much you'll pay in interest and plan your finances with precision.
+            Calculate your loan payments instantly. See exactly how much you&apos;ll pay in interest and plan your finances with precision.
           </p>
         </div>
       </div>
@@ -145,8 +145,8 @@ export default function LoanCalculator() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">What Your Payment Means</h3>
                     <p className="text-slate-700 text-sm">
-                      You'll pay <strong>{formatCurrency(calculations.monthly)}</strong> every month for {calculations.months.toLocaleString()} months. 
-                      Over the loan's lifetime, <strong>{((calculations.interest / calculations.total) * 100).toFixed(1)}%</strong> of your total payments go to interest.
+                      You&apos;ll pay <strong>{formatCurrency(calculations.monthly)}</strong> every month for {calculations.months.toLocaleString()} months. 
+                      Over the loan&apos;s lifetime, <strong>{((calculations.interest / calculations.total) * 100).toFixed(1)}%</strong> of your total payments go to interest.
                     </p>
                   </div>
                 </div>
@@ -161,7 +161,7 @@ export default function LoanCalculator() {
                   A loan calculator is a free online tool that helps you estimate monthly payments, total interest costs, and repayment schedules for various types of loans including personal loans, auto loans, student loans, and business loans.
                 </p>
                 <p className="text-slate-700">
-                  Whether you're planning to finance a car, consolidate debt, fund your education, or start a business, our calculator provides instant calculations to help you make smart borrowing decisions and understand your financial obligations.
+                  Whether you&apos;re planning to finance a car, consolidate debt, fund your education, or start a business, our calculator provides instant calculations to help you make smart borrowing decisions and understand your financial obligations.
                 </p>
                 <div className="bg-slate-50 p-4 rounded border border-slate-200">
                   <p className="text-sm text-slate-700">
@@ -195,7 +195,7 @@ export default function LoanCalculator() {
                   <div className="border border-slate-200 rounded-lg p-4">
                     <h3 className="font-semibold text-slate-900 mb-2">Interest Rate (APR)</h3>
                     <p className="text-slate-700 text-sm">
-                      Your yearly cost to borrow, including all fees. A lower rate saves thousands over the loan's life.
+                      Your yearly cost to borrow, including all fees. A lower rate saves thousands over the loan&apos;s life.
                     </p>
                   </div>
                 </div>
