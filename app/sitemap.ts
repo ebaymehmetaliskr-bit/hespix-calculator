@@ -4,6 +4,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://app.hespix.com'
 
+  // Sitede bulunan tüm ana rotalar
   const routes = [
     '/',
     '/about',
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/unit-converter',
   ];
 
+  // Rotaları sitemap formatına dönüştür
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString(),
