@@ -1,3 +1,8 @@
+'use client';
+
+import { useState, useMemo } from 'react';
+import { TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
+// ... rest of code
 import { useState, useMemo } from 'react';
 import { TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
 
