@@ -299,5 +299,4 @@ export default function LoanCalculator() {
         </div>
       </div>
     </div>
-  );
-}
+  )
