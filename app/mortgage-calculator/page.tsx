@@ -97,7 +97,7 @@ export default function MortgageCalculatorPage() {
                 A <strong>Mortgage Calculator</strong> is a free online tool that helps you estimate your monthly home loan payments, total interest costs, and affordability for buying a house in the United States. Our calculator considers your loan amount, interest rate, loan term, property taxes, homeowners insurance, and PMI to provide accurate monthly payment estimates.
             </p>
             <p className="mb-4">
-                Whether you're a first-time homebuyer or looking to refinance your existing mortgage, our mortgage payment calculator provides instant calculations to help you make informed financial decisions about your home purchase.
+                Whether you&apos;re a first-time homebuyer or looking to refinance your existing mortgage, our mortgage payment calculator provides instant calculations to help you make informed financial decisions about your home purchase.
             </p>
             <div className="bg-blue-50 p-4 rounded-lg">
                 <p className="text-sm">
@@ -148,7 +148,7 @@ export default function MortgageCalculatorPage() {
             {/* What is a Mortgage */}
             <div className="mb-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
                 <h3 className="text-xl font-bold text-blue-700 mb-3">🏦 What is a Mortgage?</h3>
-                <p className="mb-3">A mortgage is a secured loan where the lender provides funds to purchase a home, and the borrower agrees to repay the loan over a specified period with interest. The home serves as collateral, meaning the lender can foreclose if payments aren't made.</p>
+                <p className="mb-3">A mortgage is a secured loan where the lender provides funds to purchase a home, and the borrower agrees to repay the loan over a specified period with interest. The home serves as collateral, meaning the lender can foreclose if payments aren&apos;t made.</p>
                 
                 <div className="bg-white p-4 rounded border mb-3">
                 <h4 className="font-bold mb-2">Key Components of a Mortgage:</h4>
@@ -552,7 +552,7 @@ export default function MortgageCalculatorPage() {
                 </div>
                 
                 <div className="bg-white p-4 rounded shadow">
-                <h3 className="text-lg font-bold text-gray-700 mb-2">What's the difference between APR and interest rate?</h3>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">What&apos;s the difference between APR and interest rate?</h3>
                 <p className="text-sm">The interest rate is the cost of borrowing the principal. APR (Annual Percentage Rate) includes the interest rate plus other costs like points, fees, and closing costs, giving you the true cost of the loan.</p>
                 </div>
                 
@@ -568,7 +568,7 @@ export default function MortgageCalculatorPage() {
                 
                 <div className="bg-white p-4 rounded shadow">
                 <h3 className="text-lg font-bold text-gray-700 mb-2">What happens if I miss a mortgage payment?</h3>
-                <p className="text-sm">Missing one payment typically results in a late fee. Multiple missed payments can lead to default and foreclosure proceedings. Contact your lender immediately if you're having payment difficulties.</p>
+                <p className="text-sm">Missing one payment typically results in a late fee. Multiple missed payments can lead to default and foreclosure proceedings. Contact your lender immediately if you&apos;re having payment difficulties.</p>
                 </div>
             </div>
             </div>
@@ -603,7 +603,7 @@ export default function MortgageCalculatorPage() {
             
             <div className="bg-indigo-100 p-4 rounded mt-4">
                 <p className="text-sm text-center">
-                <strong>💡 Strategy Tip:</strong> In today's market, focus on improving your credit score, saving for a larger down payment, and getting pre-approved to act quickly on good opportunities.
+                <strong>💡 Strategy Tip:</strong> In today&apos;s market, focus on improving your credit score, saving for a larger down payment, and getting pre-approved to act quickly on good opportunities.
                 </p>
             </div>
             </div>
@@ -721,7 +721,7 @@ export default function MortgageCalculatorPage() {
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6 mb-8">
             <h2 className="text-2xl font-bold text-green-700 mb-4">🎉 Start Your Home Buying Journey Today!</h2>
             <p className="mb-4 text-lg">
-                Our <strong>Mortgage Calculator</strong> is your essential first step toward homeownership. Whether you're buying your first home, upgrading to a larger property, or refinancing your current mortgage, accurate payment calculations help you make confident financial decisions.
+                Our <strong>Mortgage Calculator</strong> is your essential first step toward homeownership. Whether you&apos;re buying your first home, upgrading to a larger property, or refinancing your current mortgage, accurate payment calculations help you make confident financial decisions.
             </p>
             
             <div className="bg-white p-4 rounded shadow border-l-4 border-green-500 mb-4">

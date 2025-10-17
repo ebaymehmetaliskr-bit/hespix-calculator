@@ -170,7 +170,7 @@ export default function PercentageCalculatorPage() {
             {/* Understanding Percentage Calculations */}
             <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">🧠 Understanding Percentage Calculations</h2>
-            <p className="mb-6">Percentages are a fundamental part of mathematics and are used in many areas of everyday life. Let's explore the three main types of percentage calculations:</p>
+            <p className="mb-6">Percentages are a fundamental part of mathematics and are used in many areas of everyday life. Let&apos;s explore the three main types of percentage calculations:</p>
             
             {/* Type 1: Percentage of a Number */}
             <div className="mb-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
@@ -421,7 +421,7 @@ export default function PercentageCalculatorPage() {
                 <div className="bg-white p-4 rounded shadow">
                     <h3 className="text-lg font-bold text-teal-600 mb-2">📝 Best Practices</h3>
                     <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Always clearly identify what you're calculating</li>
+                    <li>Always clearly identify what you&apos;re calculating</li>
                     <li>Show your work for important calculations</li>
                     <li>Use consistent decimal places in final answers</li>
                     <li>Consider context when interpreting results</li>
@@ -437,7 +437,7 @@ export default function PercentageCalculatorPage() {
             
             <div className="space-y-4">
                 <div className="bg-white p-4 rounded shadow">
-                <h3 className="text-lg font-bold text-gray-700 mb-2">What's the difference between percentage and percentile?</h3>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">What&apos;s the difference between percentage and percentile?</h3>
                 <p className="text-sm">A <strong>percentage</strong> is a fraction out of 100, while a <strong>percentile</strong> indicates the value below which a certain percentage of data falls in a distribution.</p>
                 </div>
                 
@@ -452,7 +452,7 @@ export default function PercentageCalculatorPage() {
                 </div>
                 
                 <div className="bg-white p-4 rounded shadow">
-                <h3 className="text-lg font-bold text-gray-700 mb-2">Why doesn't a 50% increase followed by a 50% decrease return to the original?</h3>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">Why doesn&apos;t a 50% increase followed by a 50% decrease return to the original?</h3>
                 <p className="text-sm">Because the base value changes. Example: 100 → +50% = 150 → -50% = 75. The 50% decrease is calculated from 150, not 100.</p>
                 </div>
             </div>
@@ -505,7 +505,7 @@ export default function PercentageCalculatorPage() {
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 mb-8">
             <h2 className="text-2xl font-bold text-purple-700 mb-4">🎉 Master Percentage Calculations Today!</h2>
             <p className="mb-4 text-lg">
-                Our <strong>Percentage Calculator</strong> is your go-to tool for all percentage-related calculations. Whether you're a student, professional, or just need quick calculations for daily life, we've got you covered with accurate, fast, and free percentage calculations.
+                Our <strong>Percentage Calculator</strong> is your go-to tool for all percentage-related calculations. Whether you&apos;re a student, professional, or just need quick calculations for daily life, we&apos;ve got you covered with accurate, fast, and free percentage calculations.
             </p>
             
             <div className="bg-white p-4 rounded shadow border-l-4 border-purple-500 mb-4">

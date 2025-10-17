@@ -294,7 +294,7 @@ export default function BMICalculatorPage() {
                 <h3 className="text-lg font-bold text-indigo-600 mb-2">📊 Waist-to-Hip Ratio</h3>
                 <ul className="list-disc list-inside text-sm space-y-1">
                   <li><strong>Calculation:</strong> Waist ÷ Hip circumference</li>
-                  <li><strong>Risk Level:</strong> >0.9 (men) or >0.85 (women)</li>
+                  <li><strong>Risk Level:</strong> &gt;0.9 (men) or &gt;0.85 (women)</li>
                   <li><strong>Significance:</strong> Indicates fat distribution pattern</li>
                 </ul>
               </div>

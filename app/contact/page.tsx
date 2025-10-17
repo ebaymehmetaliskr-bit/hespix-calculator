@@ -5,7 +5,7 @@ export default function ContactPage() {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-extrabold text-gray-900 text-center">Contact Us</h1>
         <p className="mt-4 text-lg text-gray-500">
-          If you have any questions or comments, please don't hesitate to contact us.
+          If you have any questions or comments, please don&apos;t hesitate to contact us.
         </p>
         <p className="mt-4 text-lg text-gray-500">
           Email: <a href="mailto:contact@hespix.com" className="text-indigo-600 hover:underline">contact@hespix.com</a>
