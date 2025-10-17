@@ -112,7 +112,7 @@ export default function BMICalculatorPage() {
               <li><strong>Select your gender</strong> (Male/Female) - This helps provide more accurate health recommendations</li>
               <li><strong>Enter your height</strong> in feet and inches or centimeters</li>
               <li><strong>Input your current weight</strong> in pounds or kilograms</li>
-              <li><strong>Click "Calculate BMI"</strong> to get your instant results</li>
+              <li><strong>Click &quot;Calculate BMI&quot;</strong> to get your instant results</li>
               <li><strong>Review your BMI category</strong> and personalized health recommendations</li>
             </ol>
             <p className="text-sm bg-blue-100 p-3 rounded">
@@ -134,7 +134,7 @@ export default function BMICalculatorPage() {
             
             <h3 className="text-xl font-bold mt-6 mb-3 text-green-600">📝 Example BMI Calculation:</h3>
             <ul className="list-disc list-inside space-y-1 bg-white p-4 rounded">
-              <li><strong>Person:</strong> 5'9" tall, weighing 150 pounds</li>
+              <li><strong>Person:</strong> 5&apos;9&quot; tall, weighing 150 pounds</li>
               <li><strong>Calculation:</strong> (150 × 703) / (69)² = 105,450 / 4,761 = <span className="text-green-600 font-bold">22.1 BMI</span></li>
               <li><strong>Category:</strong> Normal Weight</li>
             </ul>
@@ -259,7 +259,7 @@ export default function BMICalculatorPage() {
                 <ul className="list-disc list-inside space-y-1">
                   <li><strong>Elderly:</strong> BMI ranges may differ for older adults</li>
                   <li><strong>Children:</strong> Special pediatric BMI charts required</li>
-                  <li><strong>Pregnant Women:</strong> BMI calculations don't apply during pregnancy</li>
+                  <li><strong>Pregnant Women:</strong> BMI calculations don&apos;t apply during pregnancy</li>
                   <li><strong>Ethnic Variations:</strong> Different populations may need adjusted thresholds</li>
                 </ul>
               </div>
@@ -382,7 +382,7 @@ export default function BMICalculatorPage() {
               </div>
               
               <div className="bg-white p-4 rounded shadow">
-                <h3 className="text-lg font-bold text-gray-700 mb-2">What's the ideal BMI for optimal health?</h3>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">What&apos;s the ideal BMI for optimal health?</h3>
                 <p className="text-sm">Research suggests BMI between 20-25 is associated with lowest mortality risk for most adults, with 22-23 often considered optimal.</p>
               </div>
             </div>
@@ -427,7 +427,7 @@ export default function BMICalculatorPage() {
           <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6 mb-8">
             <h2 className="text-2xl font-bold text-green-700 mb-4">🌟 Conclusion: Your Path to Better Health</h2>
             <p className="mb-4 text-lg">
-              Our <strong>BMI Calculator</strong> is more than just a measurement tool—it's your gateway to better health awareness and improved well-being. By regularly monitoring your BMI and understanding its implications, you can make informed decisions about your diet, exercise, and overall lifestyle.
+              Our <strong>BMI Calculator</strong> is more than just a measurement tool—it&apos;s your gateway to better health awareness and improved well-being. By regularly monitoring your BMI and understanding its implications, you can make informed decisions about your diet, exercise, and overall lifestyle.
             </p>
             
             <div className="bg-white p-4 rounded shadow border-l-4 border-green-500 mb-4">
