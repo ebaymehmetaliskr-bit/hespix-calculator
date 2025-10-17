@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 
-// Bu dosya, app.hespix.com/sitemap.xml adresini otomatik olarak oluşturur.
+// Bu dosya, [app.hespix.com/sitemap.xml](https://app.hespix.com/sitemap.xml) adresini otomatik olarak oluşturur.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://app.hespix.com'
+  const baseUrl = '[https://app.hespix.com](https://app.hespix.com)'
 
   const routes = [
     '/',
@@ -21,5 +21,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly',
     priority: route === '/' ? 1 : 0.8,
   }));
-}
-```eof
