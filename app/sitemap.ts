@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy-policy',
     '/bmi-calculator',
     '/mortgage-calculator',
+    '/loan-calculator', 
     '/percentage-calculator',
     '/unit-converter',
   ];
