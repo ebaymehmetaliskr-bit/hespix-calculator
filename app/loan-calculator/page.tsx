@@ -3,9 +3,6 @@
 import { useState, useMemo } from 'react';
 import { TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
 // ... rest of code
-import { useState, useMemo } from 'react';
-import { TrendingUp, AlertCircle, CheckCircle2 } from 'lucide-react';
-
 export default function LoanCalculator() {
   const [loanAmount, setLoanAmount] = useState('25000');
   const [interestRate, setInterestRate] = useState('7.5');
