@@ -1,4 +1,4 @@
-import { DollarSign, TrendingUp, Home, Calculator, Heart, Zap } from 'lucide-react';
+import { DollarSign, TrendingUp, Home, Calculator, Heart, Zap, PiggyBank } from 'lucide-react';
 
 export default function HomePage() {
   const featuredTools = [
@@ -20,18 +20,19 @@ export default function HomePage() {
     },
     {
       name: 'Retirement Calculator',
-      description: 'Plan your retirement savings and income needs.',
-      href: '/retirement-calculator',
-      icon: TrendingUp,
-      color: 'from-purple-600 to-purple-500',
-      badge: 'Coming Soon',
-    },
-    {
-      name: 'Retirement Calculator',
       description: 'Plan your retirement savings and calculate your future nest egg.',
       href: '/retirement-calculator',
       icon: PiggyBank,
-      bgColor: 'bg-emerald-500',
+      color: 'from-emerald-600 to-emerald-500',
+      badge: 'New',
+    },
+    {
+      name: 'Investment Calculator',
+      description: 'Calculate investment returns with compound interest.',
+      href: '/investment-calculator',
+      icon: TrendingUp,
+      color: 'from-purple-600 to-purple-500',
+      badge: 'New',
     },
   ];
 
@@ -42,7 +43,7 @@ export default function HomePage() {
         { name: 'Loan Calculator', href: '/loan-calculator', icon: DollarSign },
         { name: 'Mortgage Calculator', href: '/mortgage-calculator', icon: Home },
         { name: 'Investment Calculator', href: '/investment-calculator', icon: TrendingUp },
-        { name: 'Retirement Calculator', href: '/retirement-calculator', icon: TrendingUp },
+        { name: 'Retirement Calculator', href: '/retirement-calculator', icon: PiggyBank },
       ],
     },
     {
@@ -123,7 +124,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredTools.map((tool) => {
               const IconComponent = tool.icon;
               return (
@@ -136,18 +137,18 @@ export default function HomePage() {
                   <div className={`absolute inset-0 bg-gradient-to-br ${tool.color} opacity-95 group-hover:opacity-100 transition`} />
                   
                   {/* Content */}
-                  <div className="relative p-8 text-white h-full flex flex-col justify-between">
+                  <div className="relative p-6 text-white h-full flex flex-col justify-between min-h-[240px]">
                     <div>
-                      <div className="inline-block mb-4">
+                      <div className="inline-block mb-3">
                         <span className="text-xs font-bold bg-white bg-opacity-20 px-3 py-1 rounded-full">
                           {tool.badge}
                         </span>
                       </div>
-                      <IconComponent className="w-12 h-12 mb-4" />
-                      <h3 className="text-2xl font-bold mb-2">{tool.name}</h3>
-                      <p className="text-white text-opacity-90">{tool.description}</p>
+                      <IconComponent className="w-10 h-10 mb-3" />
+                      <h3 className="text-xl font-bold mb-2">{tool.name}</h3>
+                      <p className="text-white text-opacity-90 text-sm">{tool.description}</p>
                     </div>
-                    <div className="mt-6 flex items-center text-white group-hover:translate-x-2 transition">
+                    <div className="mt-4 flex items-center text-white group-hover:translate-x-2 transition">
                       <span className="text-sm font-semibold">Get Started →</span>
                     </div>
                   </div>

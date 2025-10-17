@@ -1,27 +1,45 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
-// Bu dosya, app.hespix.com/sitemap.xml adresini otomatik olarak oluşturur.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://app.hespix.com'
+  const baseUrl = 'https://app.hespix.com';
+  const currentDate = new Date();
 
-  // Sitede bulunan tüm ana rotalar
-  const routes = [
-    '/',
-    '/about',
-    '/contact',
-    '/privacy-policy',
-    '/bmi-calculator',
-    '/mortgage-calculator',
-    '/loan-calculator', 
-    '/percentage-calculator',
-    '/unit-converter',
+  return [
+    {
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: 'daily',
+      priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/bmi-calculator`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/mortgage-calculator`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/loan-calculator`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/retirement-calculator`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/investment-calculator`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
-
-  // Rotaları sitemap formatına dönüştür
-  return routes.map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'monthly',
-    priority: route === '/' ? 1 : 0.8,
-  }));
 }
