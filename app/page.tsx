@@ -26,6 +26,13 @@ export default function HomePage() {
       color: 'from-purple-600 to-purple-500',
       badge: 'Coming Soon',
     },
+    {
+      name: 'Retirement Calculator',
+      description: 'Plan your retirement savings and calculate your future nest egg.',
+      href: '/retirement-calculator',
+      icon: PiggyBank,
+      bgColor: 'bg-emerald-500',
+    },
   ];
 
   const allTools = [
