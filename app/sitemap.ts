@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next'
 
+// Bu dosya, app.hespix.com/sitemap.xml adresini otomatik olarak oluşturur.
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://app.hespix.com'
 
-  // Projedeki tüm statik sayfaların listesi
-  const staticPages = [
+  const routes = [
     '/',
     '/about',
     '/contact',
@@ -15,13 +15,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/unit-converter',
   ];
 
-  const sitemapEntries = staticPages.map((path) => ({
-    url: `${baseUrl}${path}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as 'monthly',
-    priority: path === '/' ? 1.0 : 0.8,
+  return routes.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly',
+    priority: route === '/' ? 1 : 0.8,
   }));
-
-  return sitemapEntries;
 }
 ```eof
